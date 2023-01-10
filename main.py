@@ -89,12 +89,9 @@ def animate(i):
         mel_frames = (mel_frames - train_mean) / train_std
         y = model.predict(mel_frames, verbose=0)
         pred = y.argmax(axis=1)
-        print(pred.max(),len(classes))
-
         pred = pred[pred != 0]
         if len(pred) != 0:
             speaker = collections.Counter(pred).most_common()[0][0]
-            print([classes[p] for p in pred])
         else:
             speaker = 0  # not speaking
         if gui["label_acc"]:
