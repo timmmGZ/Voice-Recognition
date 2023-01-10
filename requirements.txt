@@ -1,0 +1,10 @@
+librosa~=0.8.0
+numpy~=1.21.6
+matplotlib~=3.3.3
+PyAudio~=0.2.11
+keras~=2.11.0
+gdown~=4.6.0
+pandas~=1.1.5
+scipy~=1.5.4
+tqdm~=4.60.0
+tensorflow~=2.11.0
