@@ -1,7 +1,8 @@
 # Voice-Recognition
-This is a demo, the code is not formatted yet  
-Performance development in progress
-Run to install the libs
+This program is a demo  
+Performance development in progress  
+Check the visual step by step processing and result in colab: https://colab.research.google.com/drive/1r3CrQwRuvIeA7wbcQPywopv0zOgyOkVE?usp=share_link  
+For the program, run to install the libs
 ```
  pip install -r requirements.txt
 ```
